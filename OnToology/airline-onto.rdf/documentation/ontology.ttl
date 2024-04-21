@@ -1,0 +1,1164 @@
+@prefix : <http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#> .
+
+<http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews> rdf:type owl:Ontology ;
+                                                                        owl:versionIRI <http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews/1.0.0> ;
+                                                                        <http://purl.org/dc/elements/1.1/desription> "An ontology dedicated to describing flight satisfaction surveys." ;
+                                                                        <http://purl.org/dc/elements/1.1/title> "Airline Satisfaction Survey Ontology" ;
+                                                                        owl:versionIRI "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews/1.0.0" ;
+                                                                        owl:versionInfo """Initial version of the ontology with the incorporation of the following datasets: 
+
+KAGGLE:
+-------------
+https://www.kaggle.com/datasets/pranaybshah/qatar-airways-reviews
+
+https://www.kaggle.com/datasets/cristaliss/ryanair-reviews-ratings
+
+============================================================
+
+DBPEDIA:
+--------------
+https://dbpedia.org/page/Category:Qatar_Airways
+
+https://dbpedia.org/page/Category:Ryanair""" .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/elements/1.1/desription
+<http://purl.org/dc/elements/1.1/desription> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/title
+<http://purl.org/dc/elements/1.1/title> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2000/01/rdf-schema#sameAs
+rdfs:sameAs rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2002/07/owl#versionIRI
+owl:versionIRI rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#fromOrigin
+:fromOrigin rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf owl:topObjectProperty ;
+            rdfs:comment "An object property that permit to define an Origin for a specific Flight." ;
+            rdfs:label "from Origin" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#hasAircraft
+:hasAircraft rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf owl:topObjectProperty ;
+             rdfs:range <http://dbpedia.org/ontology/Aircraft> ;
+             rdfs:comment "An object property that permit to define an Aircraft for a specific Flight." ;
+             rdfs:label "has Aircraft" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#hasAuthor
+:hasAuthor rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf owl:topObjectProperty ;
+           rdfs:comment "An object property that permit to define an Author for a specific Review." ;
+           rdfs:label "has Author" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#hasBusinessClass
+:hasBusinessClass rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf owl:topObjectProperty ;
+                  rdfs:comment "An object property that permit to define a Business Class Seat Type for a specific Flight." ;
+                  rdfs:label "has Business Class" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#hasComment
+:hasComment rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf owl:topObjectProperty ;
+            rdfs:comment "An object property that permit to define a Comment for a specific Review." ;
+            rdfs:label "has Comment" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#hasCommentTitle
+:hasCommentTitle rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf owl:topObjectProperty ;
+                 rdfs:comment "An object property that permit to define a Comment Title for a specific Review." ;
+                 rdfs:label "has Comment Title" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#hasCountry
+:hasCountry rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf owl:topObjectProperty ;
+            rdfs:range <http://dbpedia.org/ontology/Country> ;
+            rdfs:comment "An object property that represents the Country of a Passenger." ;
+            rdfs:label "has Country" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#hasEconomyClass
+:hasEconomyClass rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf owl:topObjectProperty ;
+                 rdfs:comment "An object property that permit to define a Economy Class Seat Type for a specific Flight." ;
+                 rdfs:label "has Economy Class" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#hasFirstClass
+:hasFirstClass rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf owl:topObjectProperty ;
+               rdfs:comment "An object property that permit to define a First Class Seat Type for a specific Flight." ;
+               rdfs:label "has First Class" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#hasFlight
+:hasFlight rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf owl:topObjectProperty ;
+           rdfs:domain :Passenger ;
+           rdfs:range :Flight ;
+           rdfs:comment "An object property that permit to define a Flight for a specific Review." ;
+           rdfs:label "has Flight" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#hasQatarAirline
+:hasQatarAirline rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf owl:topObjectProperty ;
+                 rdfs:comment "An object property that permit to define a Qatar Airline for a specific Aircraft." ;
+                 rdfs:label "has Qatar Airline" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#hasReview
+:hasReview rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf owl:topObjectProperty ;
+           rdfs:domain :Flight ;
+           rdfs:range :Review ;
+           rdfs:comment "An object property that represents the Reviews that an Airline have." ;
+           rdfs:label "has Review" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#hasRyanairAirline
+:hasRyanairAirline rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf owl:topObjectProperty ;
+                   rdfs:comment "An object property that permit to define a Ryanair Airline for a specific Aircraft." ;
+                   rdfs:label "has Ryanair Airline" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#hasSentimentAnalysis
+:hasSentimentAnalysis rdf:type owl:ObjectProperty ;
+                      rdfs:subPropertyOf owl:topObjectProperty ;
+                      rdfs:comment "An object property that allows Sentiment Analysis to be defined for specific Passenger." ;
+                      rdfs:label "has Sentiment Analysis" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#isPassenger
+:isPassenger rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf owl:topObjectProperty ;
+             rdfs:comment "An object property that permit to define a Passenger for a specific Review." ;
+             rdfs:label "is Passenger" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#toDestination
+:toDestination rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf owl:topObjectProperty ;
+               rdfs:comment "An object property that permit to define a Destination for a specific Flight." ;
+               rdfs:label "to Destination" .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#age
+:age rdf:type owl:DatatypeProperty ;
+     rdfs:subPropertyOf owl:topDataProperty ;
+     rdfs:range xsd:integer ;
+     rdfs:comment "Data property that represents the Age of an Entity." ;
+     rdfs:label "age" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#cabinStaffService
+:cabinStaffService rdf:type owl:DatatypeProperty ;
+                   rdfs:subPropertyOf owl:topDataProperty ;
+                   rdfs:range xsd:float ;
+                   rdfs:comment "A data property that indicates what the Cabin Staff Service is." ;
+                   rdfs:label "cabin Staff Service" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#dateFlown
+:dateFlown rdf:type owl:DatatypeProperty ;
+           rdfs:subPropertyOf owl:topDataProperty ;
+           rdfs:range xsd:string ;
+           rdfs:comment "A data property that permit to identify the Date Flown for an Entity." ;
+           rdfs:label "date Flown" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#datePublished
+:datePublished rdf:type owl:DatatypeProperty ;
+               rdfs:subPropertyOf owl:topDataProperty ;
+               rdfs:range xsd:string ;
+               rdfs:comment "A data property that permit to identify the Date Published for an Entity." ;
+               rdfs:label "date Published" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#foodAndBeverages
+:foodAndBeverages rdf:type owl:DatatypeProperty ;
+                  rdfs:subPropertyOf owl:topDataProperty ;
+                  rdfs:range xsd:float ;
+                  rdfs:comment "A data property that indicates the availability of Food & Beverages." ;
+                  rdfs:label "food and Beverages" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#gender
+:gender rdf:type owl:DatatypeProperty ;
+        rdfs:subPropertyOf owl:topDataProperty ;
+        rdfs:range xsd:string ;
+        rdfs:comment "Data property that represents the Gender of an Entity." ;
+        rdfs:label "gender" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#groundService
+:groundService rdf:type owl:DatatypeProperty ;
+               rdfs:subPropertyOf owl:topDataProperty ;
+               rdfs:range xsd:float ;
+               rdfs:comment "A data property that indicates the availability of Ground Service." ;
+               rdfs:label "ground Service" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#id
+:id rdf:type owl:DatatypeProperty ;
+    rdfs:subPropertyOf owl:topDataProperty ;
+    rdf:type owl:FunctionalProperty ;
+    rdfs:range xsd:anyURI ;
+    rdfs:comment "A data property that permit to define an ID for an Entity" ;
+    rdfs:label "id" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#inflightEntertainment
+:inflightEntertainment rdf:type owl:DatatypeProperty ;
+                       rdfs:subPropertyOf owl:topDataProperty ;
+                       rdfs:range xsd:float ;
+                       rdfs:comment "A data property that indicates the availability of In-flight Entertainment." ;
+                       rdfs:label "inflight Entertainment" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#name
+:name rdf:type owl:DatatypeProperty ;
+      rdfs:subPropertyOf owl:topDataProperty ;
+      rdf:type owl:FunctionalProperty ;
+      rdfs:range rdfs:Literal ,
+                 xsd:string ;
+      rdfs:comment "Data property that represents the Name of an Entity." ;
+      rdfs:label "name" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#nationality
+:nationality rdf:type owl:DatatypeProperty ;
+             rdfs:subPropertyOf owl:topDataProperty ;
+             rdfs:range xsd:string ;
+             rdfs:comment "Data property that represents the Nationality of an Entity." ;
+             rdfs:label "nationality" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#rating
+:rating rdf:type owl:DatatypeProperty ;
+        rdfs:subPropertyOf owl:topDataProperty ;
+        rdfs:domain :Review ;
+        rdfs:range xsd:integer ;
+        rdfs:comment "A data property that represents the average Rating given to the Flight by the passengers." ;
+        rdfs:label "rating" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#recommended
+:recommended rdf:type owl:DatatypeProperty ;
+             rdfs:subPropertyOf owl:topDataProperty ;
+             rdfs:range xsd:boolean ;
+             rdfs:comment "A data property indicating whether the passenger would Recommend this Flight to others." ;
+             rdfs:label "recommended" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#seatComfort
+:seatComfort rdf:type owl:DatatypeProperty ;
+             rdfs:subPropertyOf owl:topDataProperty ;
+             rdfs:range xsd:float ;
+             rdfs:comment "A data property that indicates how Comfortable the Seats are." ;
+             rdfs:label "seat Comfort" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#tripVerificationStatus
+:tripVerificationStatus rdf:type owl:DatatypeProperty ;
+                        rdfs:subPropertyOf owl:topDataProperty ;
+                        rdfs:range xsd:boolean ;
+                        rdfs:comment "A data property that indicates whether the trip is Verified or not." ;
+                        rdfs:label "trip Verification Status" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#valueForMoney
+:valueForMoney rdf:type owl:DatatypeProperty ;
+               rdfs:subPropertyOf owl:topDataProperty ;
+               rdfs:range xsd:float ;
+               rdfs:comment "A data property that refers the specific Value for a Currency." ;
+               rdfs:label "value for Money" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#wifiAndConnectivity
+:wifiAndConnectivity rdf:type owl:DatatypeProperty ;
+                     rdfs:subPropertyOf owl:topDataProperty ;
+                     rdfs:range xsd:float ;
+                     rdfs:comment "A data property that indicates the presence of WiFi." ;
+                     rdfs:label "wifi and Connectivity" .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://dbpedia.org/ontology/Aircraft
+<http://dbpedia.org/ontology/Aircraft> rdf:type owl:Class ;
+                                       rdfs:subClassOf owl:Thing ;
+                                       rdfs:comment "An aircraft is a vehicle that is able to fly by gaining support from the air. It counters the force of gravity by using either static lift or by using the dynamic lift of an airfoil, or in a few cases the downward thrust from jet engines. Common examples of aircraft include airplanes, helicopters, airships (including blimps), gliders, paramotors, and hot air balloons." ;
+                                       rdfs:label "Aircraft" .
+
+
+###  http://dbpedia.org/ontology/Airline
+<http://dbpedia.org/ontology/Airline> rdf:type owl:Class ;
+                                      rdfs:subClassOf owl:Thing ;
+                                      rdfs:comment "An airline is a company that provides air transport services for traveling passengers and freight. Airlines use aircraft to supply these services and may form partnerships or alliances with other airlines for codeshare agreements, in which they both offer and operate the same flight. Generally, airline companies are recognized with an air operating certificate or license issued by a governmental aviation body. Airlines may be scheduled or charter operators." ;
+                                      rdfs:label "Airline" .
+
+
+###  http://dbpedia.org/ontology/Country
+<http://dbpedia.org/ontology/Country> rdf:type owl:Class ;
+                                      rdfs:subClassOf :Passenger ;
+                                      rdfs:comment "A country is a distinct part of the world, such as a state, nation, or other political entity. It may be a sovereign state or make up one part of a larger state. For example, the country of Japan is an independent, sovereign state, while the country of Wales is a component of a multi-part sovereign state, the United Kingdom. A country may be a historically sovereign area (such as Korea), a currently sovereign territory with a unified government (such as Senegal), or a non-sovereign geographic region associated with certain distinct political, ethnic, or cultural characteristics (such as the Basque Country)." ;
+                                      rdfs:label "Country" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Aircraft
+:Aircraft rdf:type owl:Class ;
+          rdfs:subClassOf <http://dbpedia.org/ontology/Aircraft> ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :hasQatarAirline ;
+                            owl:allValuesFrom :QatarAirways
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :hasRyanairAirline ;
+                            owl:allValuesFrom :Ryanair
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :id ;
+                            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                            owl:onDataRange xsd:anyURI
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :name ;
+                            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                            owl:onDataRange xsd:string
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :seatComfort ;
+                            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                            owl:onDataRange xsd:float
+                          ] ;
+          rdfs:comment "Machine that is able to fly by gaining support from the air other than the reactions of the air against the earth’s surface." ;
+          rdfs:label "Aircraft" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Airline
+:Airline rdf:type owl:Class ;
+         rdfs:subClassOf <http://dbpedia.org/ontology/Airline> ,
+                         [ rdf:type owl:Restriction ;
+                           owl:onProperty :id ;
+                           owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                           owl:onDataRange xsd:anyURI
+                         ] ,
+                         [ rdf:type owl:Restriction ;
+                           owl:onProperty :name ;
+                           owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                           owl:onDataRange xsd:string
+                         ] ;
+         rdfs:comment "Airlines are the entities that own the planes that use your airport." ;
+         rdfs:label "Airline" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Author
+:Author rdf:type owl:Class ;
+        rdfs:subClassOf :Review ,
+                        [ rdf:type owl:Restriction ;
+                          owl:onProperty :hasBusinessClass ;
+                          owl:allValuesFrom :BusinessClass
+                        ] ,
+                        [ rdf:type owl:Restriction ;
+                          owl:onProperty :hasEconomyClass ;
+                          owl:allValuesFrom :EconomyClass
+                        ] ,
+                        [ rdf:type owl:Restriction ;
+                          owl:onProperty :hasFirstClass ;
+                          owl:allValuesFrom :FirstClass
+                        ] ,
+                        [ rdf:type owl:Restriction ;
+                          owl:onProperty :isPassenger ;
+                          owl:allValuesFrom :Passenger
+                        ] ,
+                        [ rdf:type owl:Restriction ;
+                          owl:onProperty :id ;
+                          owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                          owl:onDataRange xsd:anyURI
+                        ] ,
+                        [ rdf:type owl:Restriction ;
+                          owl:onProperty :name ;
+                          owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                          owl:onDataRange xsd:string
+                        ] ;
+        rdfs:comment "the 'author' of an airline review is usually the individual passenger who wrote the review." ;
+        rdfs:label "Author" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Business
+:Business rdf:type owl:Class ;
+          rdfs:subClassOf :PassengerType ;
+          rdfs:comment "Business Passenger Type." ;
+          rdfs:label "Business" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#BusinessClass
+:BusinessClass rdf:type owl:Class ;
+               rdfs:subClassOf :SeatType ;
+               rdfs:comment "Business Class Seat Type." ;
+               rdfs:label "Business Class" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Comment
+:Comment rdf:type owl:Class ;
+         rdfs:subClassOf :Review ;
+         rdfs:comment "Textual assessments submitted by passengers following their flight experiences." ;
+         rdfs:label "Comment" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#CommentTitle
+:CommentTitle rdf:type owl:Class ;
+              rdfs:subClassOf :Review ;
+              rdfs:comment "Title of a given comment." ;
+              rdfs:label "Comment Title" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Country
+:Country rdf:type owl:Class ;
+         rdfs:subClassOf <http://dbpedia.org/ontology/Country> ;
+         rdfs:comment "Distinct territorial body or political entity." ;
+         rdfs:label "Country" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Destination
+:Destination rdf:type owl:Class ;
+             rdfs:subClassOf :Flight ;
+             rdfs:comment "In the context of air travel, the destination is the airport where the flight ends." ;
+             rdfs:label "Destination" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#EconomyClass
+:EconomyClass rdf:type owl:Class ;
+              rdfs:subClassOf :SeatType ;
+              rdfs:comment "Economy Class Seat Type." ;
+              rdfs:label "Economy Class" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#FamilyLeisure
+:FamilyLeisure rdf:type owl:Class ;
+               rdfs:subClassOf :PassengerType ;
+               rdfs:comment "Family Leisure Passenger Type." ;
+               rdfs:label "Family Leisure" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#FirstClass
+:FirstClass rdf:type owl:Class ;
+            rdfs:subClassOf :SeatType ;
+            rdfs:comment "First Class Seat Type." ;
+            rdfs:label "First Class" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Flight
+:Flight rdf:type owl:Class ;
+        rdfs:subClassOf owl:Thing ,
+                        [ rdf:type owl:Restriction ;
+                          owl:onProperty :hasReview ;
+                          owl:someValuesFrom :Review
+                        ] ,
+                        [ rdf:type owl:Restriction ;
+                          owl:onProperty :hasAircraft ;
+                          owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                          owl:onClass :Aircraft
+                        ] ;
+        rdfs:comment "Flight or flying is the process by which an object moves through a space without contacting any planetary surface, either within an atmosphere (i.e. air flight or aviation) or through the vacuum of outer space (i.e. spaceflight). This can be achieved by generating aerodynamic lift associated with gliding or propulsive thrust, aerostatically using buoyancy, or by ballistic movement." ;
+        rdfs:label "Flight" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#NegativeSentiments
+:NegativeSentiments rdf:type owl:Class ;
+                    rdfs:subClassOf :SentimentAnalysis ;
+                    rdfs:comment "Represents the Passengers who have expressed negative emotions or sentiments. This could include feelings of dissatisfaction, frustration, or disappointment about their flight experience." ;
+                    rdfs:label "Negative Sentiments" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#NeutralSentiments
+:NeutralSentiments rdf:type owl:Class ;
+                   rdfs:subClassOf :SentimentAnalysis ;
+                   rdfs:comment "Represents the Passengers who have expressed neutral emotions or sentiments. This could include Passengers who have neither positive nor negative feelings about their flight experience, or those who have not expressed any specific sentiment." ;
+                   rdfs:label "Neutral Sentiments" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Origin
+:Origin rdf:type owl:Class ;
+        rdfs:subClassOf :Flight ;
+        rdfs:comment "In the context of air travel, the origin is the airport where the flight begins." ;
+        rdfs:label "Origin" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Passenger
+:Passenger rdf:type owl:Class ;
+           rdfs:subClassOf owl:Thing ,
+                           [ rdf:type owl:Restriction ;
+                             owl:onProperty :hasFlight ;
+                             owl:someValuesFrom :Flight
+                           ] ,
+                           [ rdf:type owl:Restriction ;
+                             owl:onProperty :hasReview ;
+                             owl:allValuesFrom :Review
+                           ] ,
+                           [ rdf:type owl:Restriction ;
+                             owl:onProperty :hasAircraft ;
+                             owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                             owl:onClass :Aircraft
+                           ] ;
+           rdfs:comment "A passenger (also abbreviated as pax) is a person who travels in a vehicle, but does not bear any responsibility for the tasks required for that vehicle to arrive at its destination or otherwise operate the vehicle, and is not a steward. The vehicles may be bicycles, buses, passenger trains, airliners, ships, ferryboats, and other methods of transportation." ;
+           rdfs:label "Passenger" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#PassengerType
+:PassengerType rdf:type owl:Class ;
+               rdfs:subClassOf :Passenger ;
+               rdfs:comment "In the context of airlines, 'Passenger Type' refers to the different categories of passengers that can travel with an airline." ;
+               rdfs:label "Passenger Type" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#QatarAirways
+:QatarAirways rdf:type owl:Class ;
+              rdfs:subClassOf :Airline ;
+              rdfs:comment "Qatar Airways Company Q.C.S.C. operating as Qatar Airways, is the flag carrier of Qatar.Headquartered in the Qatar Airways Tower in Doha, the airline operates a hub-and-spoke network, flying to over 170 international destinations across five continents from its base at Hamad International Airport. The airline currently operates a fleet of more than 200 aircraft. Qatar Airways Group employs more than 43,000 people. The carrier has been a member of the Oneworld alliance since October 2013, and the official company slogan has been \"Going Places Together\" since 2015." ;
+              rdfs:label "Qatar Airways" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Review
+:Review rdf:type owl:Class ;
+        rdfs:subClassOf owl:Thing ;
+        rdfs:comment "Airline reviews are evaluations or feedback given by passengers about their experiences with a particular airline. These reviews can cover various aspects of the flight experience, including the quality of the airline’s service, the comfort of the seats, the food and beverages offered, the friendliness of the staff, and the punctuality of the flights." ;
+        rdfs:label "Review" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Ryanair
+:Ryanair rdf:type owl:Class ;
+         rdfs:subClassOf :Airline ;
+         rdfs:comment "Ryanair Holdings PLC is an Irish ultra low-cost carrier group headquartered in Swords, Dublin, Ireland. The company includes the subsidiaries Ryanair DACTooltip Designated activity company, Malta Air, Buzz, Lauda Europe and Ryanair UK. Ryanair DAC, the oldest airline of the group, was founded in 1984. Ryanair Holdings was established in 1996 as a holding company for Ryanair with the two companies having the same board of directors and executive officers. In 2019 the transition began from the airline Ryanair and its subsidiaries into separate sister airlines under the holding company. Later in 2019 Malta Air joined Ryanair Holdings." ;
+         rdfs:label "Ryanair" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#SeatType
+:SeatType rdf:type owl:Class ;
+          rdfs:subClassOf :Flight ;
+          rdfs:comment "Airline seat types refer to the different categories of seats available on an airplane." ;
+          rdfs:label "Seat Type" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#SentimentAnalysis
+:SentimentAnalysis rdf:type owl:Class ;
+                   rdfs:subClassOf owl:Thing ;
+                   rdfs:comment "Represents the process of determining the emotional tone behind a series of words. This is used to gain an understanding of the attitudes, opinions, and emotions of the individuals, i.e., Passengers in this context." ;
+                   rdfs:label "Sentiment Analysis" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#SoloLeisure
+:SoloLeisure rdf:type owl:Class ;
+             rdfs:subClassOf :PassengerType ;
+             rdfs:comment "Solo Leisure Passenger Type." ;
+             rdfs:label "Solo Leisure" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#positiveSentiments
+:positiveSentiments rdf:type owl:Class ;
+                    rdfs:subClassOf :SentimentAnalysis ;
+                    rdfs:comment "Represents the Passengers who have expressed positive emotions or sentiments. This could include feelings of happiness, satisfaction, or enjoyment about their flight experience." ;
+                    rdfs:label "Positive Sentiments" .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#A350
+:A350 rdf:type owl:NamedIndividual ,
+               :Aircraft ;
+      :hasQatarAirline :A350 ;
+      :name "A350" ;
+      rdfs:comment "An instance that belongs to a class 'Qatar Airways Aircraft'." ;
+      rdfs:label "A350" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#A350-1000
+:A350-1000 rdf:type owl:NamedIndividual ,
+                    :Aircraft ;
+           :hasQatarAirline :A350-1000 ;
+           :name "A350-1000" ;
+           rdfs:comment "An instance that belongs to a class 'Qatar Airways Aircraft'." ;
+           rdfs:label "A350-1000" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#A380
+:A380 rdf:type owl:NamedIndividual ,
+               :Aircraft ;
+      :hasQatarAirline :A380 ;
+      :name "A380" ;
+      rdfs:comment "An instance that belongs to a class 'Qatar Airways Aircraft'." ;
+      rdfs:label "A380" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#A380-800
+:A380-800 rdf:type owl:NamedIndividual ,
+                   :Aircraft ;
+          :hasQatarAirline :A380-800 ;
+          :name "A380-800" ;
+          rdfs:comment "An instance that belongs to a class 'Qatar Airways Aircraft'." ;
+          rdfs:label "A380-800" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Albania
+:Albania rdf:type owl:NamedIndividual ,
+                  :Country ;
+         :name "Albania" ;
+         rdfs:comment "An instance that belongs to a class 'Ryanair Passenger Country'." ;
+         rdfs:label "Albania" ;
+         rdfs:sameAs "https://dbpedia.org/page/Albania" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Alicante
+:Alicante rdf:type owl:NamedIndividual ,
+                   :Destination ;
+          :name "Alicante" ;
+          rdfs:comment "An instance that belongs to a class 'Ryanair Flight Destination'." ;
+          rdfs:label "Alicante" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Alwaleed_Althani
+:Alwaleed_Althani rdf:type owl:NamedIndividual ,
+                           :Author ;
+                  :fromOrigin :Doha ;
+                  :hasAircraft :A380-800 ;
+                  :hasCountry :Qatar ;
+                  :hasFirstClass :Alwaleed_Althani ;
+                  :hasReview :I_hope_they_update_the_A380 ;
+                  :isPassenger :Alwaleed_Althani ;
+                  :toDestination :London_Heathrow ;
+                  :dateFlown "February 2024" ;
+                  :datePublished "2024-02-25" ;
+                  :name "Alwaleed Althani" ;
+                  :rating 10 ;
+                  rdfs:comment "An instance that belongs to a class 'Qatar Airways Review Author'." ;
+                  rdfs:label "Alwaleed Althani" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Another_good_affordable_flight
+:Another_good_affordable_flight rdf:type owl:NamedIndividual ,
+                                         :CommentTitle ;
+                                :name "Another good affordable flight" ;
+                                rdfs:comment "An instance that belongs to a class 'Ryanair Review Comment Title'." ;
+                                rdfs:label "Another good affordable flight" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Auckland
+:Auckland rdf:type owl:NamedIndividual ,
+                   :Origin ;
+          :name "Auckland" ;
+          rdfs:comment "An instance that belongs to a class 'Qatar Airways Flight Origin'." ;
+          rdfs:label "Auckland" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Australia
+:Australia rdf:type owl:NamedIndividual ,
+                    :Country ;
+           :name "Australia" ;
+           rdfs:comment "An instance that belongs to a class 'Qatar Airways Passenger Country'." ;
+           rdfs:label "Australia" ;
+           rdfs:sameAs "https://dbpedia.org/page/Australia" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Belfast
+:Belfast rdf:type owl:NamedIndividual ,
+                  :Origin ;
+         :name "Belfast" ;
+         rdfs:comment "An instance that belongs to a class 'Ryanair Flight Origin'." ;
+         rdfs:label "Belfast" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Boeing_737
+:Boeing_737 rdf:type owl:NamedIndividual ,
+                     :Aircraft ;
+            :hasRyanairAirline :Boeing_737 ;
+            :name "Boeing 737" ;
+            rdfs:comment "An instance that belongs to a class 'Ryanair Aircraft'." ;
+            rdfs:label "Boeing 737" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Boeing_737-800
+:Boeing_737-800 rdf:type owl:NamedIndividual ,
+                         :Aircraft ;
+                :hasRyanairAirline :Boeing_737-800 ;
+                :name "Boeing 737-800" ;
+                rdfs:comment "An instance that belongs to a class 'Ryanair Aircraft'." ;
+                rdfs:label "Boeing 737-800" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Boeing_737-8200
+:Boeing_737-8200 rdf:type owl:NamedIndividual ,
+                          :Aircraft ;
+                 :hasRyanairAirline :Boeing_737-8200 ;
+                 :name "Boeing 737-8200" ;
+                 rdfs:comment "An instance that belongs to a class 'Ryanair Aircraft'." ;
+                 rdfs:label "Boeing 737-8200" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Boeing_737Max
+:Boeing_737Max rdf:type owl:NamedIndividual ,
+                        :Aircraft ;
+               :hasRyanairAirline :Boeing_737Max ;
+               :name "Boeing 737Max" ;
+               rdfs:comment "An instance that belongs to a class 'Ryanair Aircraft'." ;
+               rdfs:label "Boeing 737Max" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Boeing_737_900
+:Boeing_737_900 rdf:type owl:NamedIndividual ,
+                         :Aircraft ;
+                :hasRyanairAirline :Boeing_737_900 ;
+                :name "Boeing 737 900" ;
+                rdfs:comment "An instance that belongs to a class 'Ryanair Aircraft'." ;
+                rdfs:label "Boeing 737 900" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Boeing_777-300
+:Boeing_777-300 rdf:type owl:NamedIndividual ,
+                         :Aircraft ;
+                :hasQatarAirline :Boeing_777-300 ;
+                :name "Boeing 777-300" ;
+                rdfs:comment "An instance that belongs to a class 'Qatar Airways Aircraft'." ;
+                rdfs:label "Boeing 777-300" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Brian_English
+:Brian_English rdf:type owl:NamedIndividual ,
+                        :Author ;
+               :fromOrigin :Doha ;
+               :hasAircraft :A380 ;
+               :hasBusinessClass :Brian_English ;
+               :hasCountry :Canada ;
+               :hasReview :seat_would_not_stay_up ;
+               :isPassenger :Brian_English ;
+               :toDestination :Montreal ;
+               :dateFlown "February 2024" ;
+               :datePublished "2024-02-29" ;
+               :name "Brian English" ;
+               :rating 1 ;
+               rdfs:comment "An instance that belongs to a class 'Qatar Airways Review Author'." ;
+               rdfs:label "Brian English" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Canada
+:Canada rdf:type owl:NamedIndividual ,
+                 :Country ;
+        :name "Canada" ;
+        rdfs:comment "An instance that belongs to a class 'Qatar Airways Passenger Country'." ;
+        rdfs:label "Canada" ;
+        rdfs:sameAs "https://dbpedia.org/page/Canada" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Copenhagen
+:Copenhagen rdf:type owl:NamedIndividual ,
+                     :Origin ;
+            :name "Copenhagen" ;
+            rdfs:comment "An instance that belongs to a class 'Ryanair Flight Origin'." ;
+            rdfs:label "Copenhagen" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Denmark
+:Denmark rdf:type owl:NamedIndividual ,
+                  :Country ;
+         :name "Denmark" ;
+         rdfs:comment "An instance that belongs to a class 'Ryanair Passenger Country'." ;
+         rdfs:label "Denmark" ;
+         rdfs:sameAs "https://dbpedia.org/page/Denmark" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Doha
+:Doha rdf:type owl:NamedIndividual ,
+               :Destination ,
+               :Origin ;
+      :name "Doha" ;
+      rdfs:comment "An instance that belongs to a class 'Qatar Airways Flight Origin'." ;
+      rdfs:label "Doha" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Dublin
+:Dublin rdf:type owl:NamedIndividual ,
+                 :Origin ;
+        :name "Dublin" ;
+        rdfs:comment "An instance that belongs to a class 'Ryanair Flight Origin'." ;
+        rdfs:label "Dublin" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Dusseldorf
+:Dusseldorf rdf:type owl:NamedIndividual ,
+                     :Origin ;
+            :name "Dusseldorf" ;
+            rdfs:comment "An instance that belongs to a class 'Qatar Airways Flight Origin'." ;
+            rdfs:label "Dusseldorf" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Edinburgh
+:Edinburgh rdf:type owl:NamedIndividual ,
+                    :Origin ;
+           :name "Edinburgh" ;
+           rdfs:comment "An instance that belongs to a class 'Ryanair Flight Origin'." ;
+           rdfs:label "Edinburgh" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Faro
+:Faro rdf:type owl:NamedIndividual ,
+               :Origin ;
+      :name "Faro" ;
+      rdfs:comment "An instance that belongs to a class 'Ryanair Flight Origin'." ;
+      rdfs:label "Faro" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Frankfurt
+:Frankfurt rdf:type owl:NamedIndividual ,
+                    :Origin ;
+           :name "Frankfurt" ;
+           rdfs:comment "An instance that belongs to a class 'Qatar Airways Flight Origin'." ;
+           rdfs:label "Frankfurt" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Gdansk
+:Gdansk rdf:type owl:NamedIndividual ,
+                 :Destination ;
+        :name "Gdansk" ;
+        rdfs:comment "An instance that belongs to a class 'Ryanair Flight Destination'." ;
+        rdfs:label "Gdansk" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Germany
+:Germany rdf:type owl:NamedIndividual ,
+                  :Country ;
+         :name "Germany" ;
+         rdfs:comment "An instance that belongs to a class 'Qatar Airways Passenger Country'." ;
+         rdfs:label "Germany" ;
+         rdfs:sameAs "https://dbpedia.org/page/Germany" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#I_hope_they_update_the_A380
+:I_hope_they_update_the_A380 rdf:type owl:NamedIndividual ,
+                                      :CommentTitle ;
+                             :name "I hope they update the A380" ;
+                             rdfs:comment "An instance that belongs to a class 'Qatar Airways Review Comment Title'." ;
+                             rdfs:label "I hope they update the A380" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Israel
+:Israel rdf:type owl:NamedIndividual ,
+                 :Country ;
+        :name "Israel" ;
+        rdfs:comment "An instance that belongs to a class 'Ryanair Passenger Country'." ;
+        rdfs:label "Israel" ;
+        rdfs:sameAs "https://dbpedia.org/page/Israel" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Kilimanjaro_via_Doha
+:Kilimanjaro_via_Doha rdf:type owl:NamedIndividual ,
+                               :Destination ;
+                      :name "Kilimanjaro via Doha" ;
+                      rdfs:comment "An instance that belongs to a class 'Qatar Airways Flight Destination'." ;
+                      rdfs:label "Kilimanjaro via Doha" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#London_Heathrow
+:London_Heathrow rdf:type owl:NamedIndividual ,
+                          :Destination ;
+                 :name "London Heathrow" ;
+                 rdfs:comment "An instance that belongs to a class 'Qatar Airways Flight Destination'." ;
+                 rdfs:label "London Heathrow" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#London_Heathrow_via_Doha
+:London_Heathrow_via_Doha rdf:type owl:NamedIndividual ,
+                                   :Destination ;
+                          :name "London Heathrow via Doha" ;
+                          rdfs:comment "An instance that belongs to a class 'Qatar Airways Flight Destination'." ;
+                          rdfs:label "London Heathrow via Doha" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Luton
+:Luton rdf:type owl:NamedIndividual ,
+                :Destination ;
+       :name "Luton" ;
+       rdfs:comment "An instance that belongs to a class 'Ryanair Flight Destination'." ;
+       rdfs:label "Luton" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Manchester
+:Manchester rdf:type owl:NamedIndividual ,
+                     :Destination ;
+            :name "Manchester" ;
+            rdfs:comment "An instance that belongs to a class 'Ryanair Flight Destination'." ;
+            rdfs:label "Manchester" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Mary_Le
+:Mary_Le rdf:type owl:NamedIndividual ,
+                  :Author ;
+         :fromOrigin :Tokyo ;
+         :hasAircraft :A380 ;
+         :hasCountry :United_Kingdom ;
+         :hasEconomyClass :Mary_Le ;
+         :hasReview :marred_by_inconveniences ;
+         :isPassenger :Mary_Le ;
+         :toDestination :London_Heathrow_via_Doha ;
+         :dateFlown "March 2024" ;
+         :datePublished "2024-03-02" ;
+         :name "Mary Le" ;
+         :rating 1 ;
+         rdfs:comment "An instance that belongs to a class 'Qatar Airways Review Author'." ;
+         rdfs:label "Mary Le" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Melbourne_via_Doha
+:Melbourne_via_Doha rdf:type owl:NamedIndividual ,
+                             :Destination ;
+                    :name "Melbourne via Doha" ;
+                    rdfs:comment "An instance that belongs to a class 'Qatar Airways Flight Destination'." ;
+                    rdfs:label "Melbourne via Doha" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Montreal
+:Montreal rdf:type owl:NamedIndividual ,
+                   :Destination ;
+          :name "Montreal" ;
+          rdfs:comment "An instance that belongs to a class 'Qatar Airways Flight Destination'." ;
+          rdfs:label "Montreal" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#New_Delhi
+:New_Delhi rdf:type owl:NamedIndividual ,
+                    :Origin ;
+           :name "New Delhi" ;
+           rdfs:comment "An instance that belongs to a class 'Qatar Airways Flight Origin'." ;
+           rdfs:label "New Delhi" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Paris_Beauvais
+:Paris_Beauvais rdf:type owl:NamedIndividual ,
+                         :Destination ;
+                :name "Paris Beauvais" ;
+                rdfs:comment "An instance that belongs to a class 'Ryanair Flight Destination'." ;
+                rdfs:label "Paris Beauvais" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Perth
+:Perth rdf:type owl:NamedIndividual ,
+                :Destination ;
+       :name "Perth" ;
+       rdfs:comment "An instance that belongs to a class 'Qatar Airways Flight Destination'." ;
+       rdfs:label "Perth" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Portugal
+:Portugal rdf:type owl:NamedIndividual ,
+                   :Country ;
+          :name "Portugal" ;
+          rdfs:comment "An instance that belongs to a class 'Ryanair Passenger Country'." ;
+          rdfs:label "Portugal" ;
+          rdfs:sameAs "https://dbpedia.org/page/Portugal" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Qatar
+:Qatar rdf:type owl:NamedIndividual ,
+                :Country ;
+       :name "Qatar" ;
+       rdfs:comment "An instance that belongs to a class 'Qatar Airways Passenger Country'." ;
+       rdfs:label "Qatar" ;
+       rdfs:sameAs "https://dbpedia.org/page/Qatar" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#San_Francisco
+:San_Francisco rdf:type owl:NamedIndividual ,
+                        :Destination ;
+               :name "San Francisco" ;
+               rdfs:comment "An instance that belongs to a class 'Qatar Airways Flight Destination'." ;
+               rdfs:label "San Francisco" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Singapore
+:Singapore rdf:type owl:NamedIndividual ,
+                    :Country ;
+           :name "Singapore" ;
+           rdfs:comment "An instance that belongs to a class 'Ryanair Passenger Country'." ;
+           rdfs:label "Singapore" ;
+           rdfs:sameAs "https://dbpedia.org/page/Singapore" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Tokyo
+:Tokyo rdf:type owl:NamedIndividual ,
+                :Origin ;
+       :name "Tokyo" ;
+       rdfs:comment "An instance that belongs to a class 'Qatar Airways Flight Origin'." ;
+       rdfs:label "Tokyo" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#United_Kingdom
+:United_Kingdom rdf:type owl:NamedIndividual ,
+                         :Country ;
+                :name "United Kingdom" ;
+                rdfs:comment "An instance that belongs to a class 'Qatar Airways Passenger Country'." ;
+                rdfs:label "United Kingdom" ;
+                rdfs:sameAs "https://dbpedia.org/page/United_Kingdom" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#W_Warnock
+:W_Warnock rdf:type owl:NamedIndividual ,
+                    :Author ;
+           :fromOrigin :Auckland ;
+           :hasAircraft :A350 ;
+           :hasBusinessClass :W_Warnock ;
+           :hasCountry :United_Kingdom ;
+           :hasReview <http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#I’d_rate_them_maybe_7/10> ;
+           :isPassenger :W_Warnock ;
+           :toDestination :Doha ;
+           :dateFlown "February 2024" ;
+           :datePublished "2024-02-22" ;
+           :name "W Warnock" ;
+           :rating 7 ;
+           rdfs:comment "An instance that belongs to a class 'Qatar Airways Review Author'." ;
+           rdfs:label "W Warnock" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Wayne_Burgess
+:Wayne_Burgess rdf:type owl:NamedIndividual ,
+                        :Author ;
+               :fromOrigin :Doha ;
+               :hasAircraft :A380 ;
+               :hasCountry :Australia ;
+               :hasEconomyClass :Wayne_Burgess ;
+               :hasReview :no_attempt_to_address_our_complaint ;
+               :isPassenger :Wayne_Burgess ;
+               :toDestination :Perth ;
+               :dateFlown "November 2023" ;
+               :datePublished "2024-02-29" ;
+               :name "Wayne Burgess" ;
+               :rating 1 ;
+               rdfs:comment "An instance that belongs to a class 'Qatar Airways Review Author'." ;
+               rdfs:label "Wayne Burgess" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#a_decent_offering_from_Ryanair
+:a_decent_offering_from_Ryanair rdf:type owl:NamedIndividual ,
+                                         :CommentTitle ;
+                                :name "a decent offering from Ryanair" ;
+                                rdfs:comment "An instance that belongs to a class 'Ryanair Review Comment Title'." ;
+                                rdfs:label "a decent offering from Ryanair" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#bang_on_time_and_smooth_flights
+:bang_on_time_and_smooth_flights rdf:type owl:NamedIndividual ,
+                                          :CommentTitle ;
+                                 :name "bang on time and smooth flights" ;
+                                 rdfs:comment "An instance that belongs to a class 'Ryanair Review Comment Title'." ;
+                                 rdfs:label "bang on time and smooth flights" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#cabin_crew_were_welcoming_and_friendly
+:cabin_crew_were_welcoming_and_friendly rdf:type owl:NamedIndividual ,
+                                                 :CommentTitle ;
+                                        :name "cabin crew were welcoming and friendly" ;
+                                        rdfs:comment "An instance that belongs to a class 'Ryanair Review Comment Title'." ;
+                                        rdfs:label "cabin crew were welcoming and friendly" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#marred_by_inconveniences
+:marred_by_inconveniences rdf:type owl:NamedIndividual ,
+                                   :CommentTitle ;
+                          :name "marred by inconveniences" ;
+                          rdfs:comment "An instance that belongs to a class 'Qatar Airways Review Comment Title'." ;
+                          rdfs:label "marred by inconveniences" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#no_attempt_to_address_our_complaint
+:no_attempt_to_address_our_complaint rdf:type owl:NamedIndividual ,
+                                              :CommentTitle ;
+                                     :name "no attempt to address our complaint" ;
+                                     rdfs:comment "An instance that belongs to a class 'Qatar Airways Review Comment Title'." ;
+                                     rdfs:label "no attempt to address our complaint" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#seat_would_not_stay_up
+:seat_would_not_stay_up rdf:type owl:NamedIndividual ,
+                                 :CommentTitle ;
+                        :name "seat would not stay up" ;
+                        rdfs:comment "An instance that belongs to a class 'Qatar Airways Review Comment Title'." ;
+                        rdfs:label "seat would not stay up" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#I’d_rate_them_maybe_7/10
+<http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#I’d_rate_them_maybe_7/10> rdf:type owl:NamedIndividual ,
+                                                                                                         :CommentTitle ;
+                                                                                                :name "I’d rate them maybe 7/10" ;
+                                                                                                rdfs:comment "An instance that belongs to a class 'Qatar Airways Review Comment Title'." ;
+                                                                                                rdfs:label "I’d rate them maybe 7/10" .
+
+
+###  http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Really_impressed!
+<http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Really_impressed!> rdf:type owl:NamedIndividual ,
+                                                                                                  :CommentTitle ;
+                                                                                         :name "Really impressed!" ;
+                                                                                         rdfs:comment "An instance that belongs to a class 'Ryanair Review Comment Title'." ;
+                                                                                         rdfs:label "Really impressed!" .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Business
+                :FamilyLeisure
+                :SoloLeisure
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :BusinessClass
+                :EconomyClass
+                :FirstClass
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :NegativeSentiments
+                :NeutralSentiments
+                :positiveSentiments
+              )
+] .
+
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
