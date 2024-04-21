@@ -1,0 +1,34 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "airlinereviews:EconomyClass" "http://dbpedia.org/ontology/Airline" "airlinereviews:Business" "airlinereviews:NegativeSentiments" "airlinereviews:CommentTitle" "airlinereviews:QatarAirways" "airlinereviews:Airline" "airlinereviews:Aircraft" "airlinereviews:Destination" "airlinereviews:NeutralSentiments" "airlinereviews:Country" "airlinereviews:Review" "airlinereviews:Flight" "airlinereviews:positiveSentiments" "http://dbpedia.org/ontology/Country" "airlinereviews:Ryanair" "airlinereviews:SoloLeisure" "airlinereviews:SentimentAnalysis" "http://dbpedia.org/ontology/Aircraft" "airlinereviews:Origin" "airlinereviews:Passenger" "airlinereviews:FamilyLeisure" "airlinereviews:BusinessClass" "airlinereviews:SeatType" "airlinereviews:Comment" "airlinereviews:FirstClass" "airlinereviews:PassengerType" "airlinereviews:Author" ; /*classes style*/
+	"airlinereviews:NegativeSentiments" -> "airlinereviews:SentimentAnalysis" [ label = "rdfs:subClassOf" ];
+	"airlinereviews:FamilyLeisure" -> "airlinereviews:PassengerType" [ label = "rdfs:subClassOf" ];
+	"airlinereviews:FirstClass" -> "airlinereviews:SeatType" [ label = "rdfs:subClassOf" ];
+	"airlinereviews:Author" -> "airlinereviews:Review" [ label = "rdfs:subClassOf" ];
+	"http://dbpedia.org/ontology/Airline" -> "owl:Thing" [ label = "rdfs:subClassOf" ];
+	"airlinereviews:Business" -> "airlinereviews:PassengerType" [ label = "rdfs:subClassOf" ];
+	"airlinereviews:Comment" -> "airlinereviews:Review" [ label = "rdfs:subClassOf" ];
+	"airlinereviews:SoloLeisure" -> "airlinereviews:PassengerType" [ label = "rdfs:subClassOf" ];
+	"airlinereviews:QatarAirways" -> "airlinereviews:Airline" [ label = "rdfs:subClassOf" ];
+	"airlinereviews:Review" -> "owl:Thing" [ label = "rdfs:subClassOf" ];
+	"airlinereviews:Aircraft" -> "http://dbpedia.org/ontology/Aircraft" [ label = "rdfs:subClassOf" ];
+	"airlinereviews:positiveSentiments" -> "airlinereviews:SentimentAnalysis" [ label = "rdfs:subClassOf" ];
+	"airlinereviews:Country" -> "http://dbpedia.org/ontology/Country" [ label = "rdfs:subClassOf" ];
+	"airlinereviews:NeutralSentiments" -> "airlinereviews:SentimentAnalysis" [ label = "rdfs:subClassOf" ];
+	"airlinereviews:Flight" -> "owl:Thing" [ label = "rdfs:subClassOf" ];
+	"airlinereviews:Ryanair" -> "airlinereviews:Airline" [ label = "rdfs:subClassOf" ];
+	"airlinereviews:Destination" -> "airlinereviews:Flight" [ label = "rdfs:subClassOf" ];
+	"airlinereviews:BusinessClass" -> "airlinereviews:SeatType" [ label = "rdfs:subClassOf" ];
+	"airlinereviews:Airline" -> "http://dbpedia.org/ontology/Airline" [ label = "rdfs:subClassOf" ];
+	"http://dbpedia.org/ontology/Aircraft" -> "owl:Thing" [ label = "rdfs:subClassOf" ];
+	"airlinereviews:SentimentAnalysis" -> "owl:Thing" [ label = "rdfs:subClassOf" ];
+	"airlinereviews:PassengerType" -> "airlinereviews:Passenger" [ label = "rdfs:subClassOf" ];
+	"http://dbpedia.org/ontology/Country" -> "airlinereviews:Passenger" [ label = "rdfs:subClassOf" ];
+	"airlinereviews:Origin" -> "airlinereviews:Flight" [ label = "rdfs:subClassOf" ];
+	"airlinereviews:EconomyClass" -> "airlinereviews:SeatType" [ label = "rdfs:subClassOf" ];
+	"airlinereviews:CommentTitle" -> "airlinereviews:Review" [ label = "rdfs:subClassOf" ];
+	"airlinereviews:Passenger" -> "owl:Thing" [ label = "rdfs:subClassOf" ];
+	"airlinereviews:SeatType" -> "airlinereviews:Flight" [ label = "rdfs:subClassOf" ];
+
+}

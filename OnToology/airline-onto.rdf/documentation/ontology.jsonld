@@ -1,0 +1,2193 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#QatarAirways"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#hasQatarAirline"
+  } ]
+}, {
+  "@id" : "_:genid10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#FirstClass"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#hasFirstClass"
+  } ]
+}, {
+  "@id" : "_:genid11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Passenger"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#isPassenger"
+  } ]
+}, {
+  "@id" : "_:genid12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#anyURI"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#id"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#name"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid14",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#hasReview"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Review"
+  } ]
+}, {
+  "@id" : "_:genid15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Aircraft"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#hasAircraft"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid16",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#hasFlight"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Flight"
+  } ]
+}, {
+  "@id" : "_:genid17",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Review"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#hasReview"
+  } ]
+}, {
+  "@id" : "_:genid18",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Aircraft"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#hasAircraft"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid19",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Business"
+    }, {
+      "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#FamilyLeisure"
+    }, {
+      "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#SoloLeisure"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Ryanair"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#hasRyanairAirline"
+  } ]
+}, {
+  "@id" : "_:genid23",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#BusinessClass"
+    }, {
+      "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#EconomyClass"
+    }, {
+      "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#FirstClass"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid27",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#NegativeSentiments"
+    }, {
+      "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#NeutralSentiments"
+    }, {
+      "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#positiveSentiments"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#anyURI"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#id"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#name"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#seatComfort"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#anyURI"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#id"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#name"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#BusinessClass"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#hasBusinessClass"
+  } ]
+}, {
+  "@id" : "_:genid9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#EconomyClass"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#hasEconomyClass"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/Aircraft",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An aircraft is a vehicle that is able to fly by gaining support from the air. It counters the force of gravity by using either static lift or by using the dynamic lift of an airfoil, or in a few cases the downward thrust from jet engines. Common examples of aircraft include airplanes, helicopters, airships (including blimps), gliders, paramotors, and hot air balloons."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Aircraft"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/Airline",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An airline is a company that provides air transport services for traveling passengers and freight. Airlines use aircraft to supply these services and may form partnerships or alliances with other airlines for codeshare agreements, in which they both offer and operate the same flight. Generally, airline companies are recognized with an air operating certificate or license issued by a governmental aviation body. Airlines may be scheduled or charter operators."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Airline"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/Country",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A country is a distinct part of the world, such as a state, nation, or other political entity. It may be a sovereign state or make up one part of a larger state. For example, the country of Japan is an independent, sovereign state, while the country of Wales is a component of a multi-part sovereign state, the United Kingdom. A country may be a historically sovereign area (such as Korea), a currently sovereign territory with a unified government (such as Senegal), or a non-sovereign geographic region associated with certain distinct political, ethnic, or cultural characteristics (such as the Basque Country)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Country"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Passenger"
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/desription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/elements/1.1/desription" : [ {
+    "@value" : "An ontology dedicated to describing flight satisfaction surveys."
+  } ],
+  "http://purl.org/dc/elements/1.1/title" : [ {
+    "@value" : "Airline Satisfaction Survey Ontology"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews/1.0.0"
+  }, {
+    "@value" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews/1.0.0"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@value" : "Initial version of the ontology with the incorporation of the following datasets: \n\nKAGGLE:\n-------------\nhttps://www.kaggle.com/datasets/pranaybshah/qatar-airways-reviews\n\nhttps://www.kaggle.com/datasets/cristaliss/ryanair-reviews-ratings\n\n============================================================\n\nDBPEDIA:\n--------------\nhttps://dbpedia.org/page/Category:Qatar_Airways\n\nhttps://dbpedia.org/page/Category:Ryanair"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#A350",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#hasQatarAirline" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#A350"
+  } ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#name" : [ {
+    "@value" : "A350"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Aircraft"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An instance that belongs to a class 'Qatar Airways Aircraft'."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "A350"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#A350-1000",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#hasQatarAirline" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#A350-1000"
+  } ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#name" : [ {
+    "@value" : "A350-1000"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Aircraft"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An instance that belongs to a class 'Qatar Airways Aircraft'."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "A350-1000"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#A380",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#hasQatarAirline" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#A380"
+  } ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#name" : [ {
+    "@value" : "A380"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Aircraft"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An instance that belongs to a class 'Qatar Airways Aircraft'."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "A380"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#A380-800",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#hasQatarAirline" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#A380-800"
+  } ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#name" : [ {
+    "@value" : "A380-800"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Aircraft"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An instance that belongs to a class 'Qatar Airways Aircraft'."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "A380-800"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Aircraft",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Machine that is able to fly by gaining support from the air other than the reactions of the air against the earth’s surface."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Aircraft"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Aircraft"
+  }, {
+    "@id" : "_:genid1"
+  }, {
+    "@id" : "_:genid2"
+  }, {
+    "@id" : "_:genid3"
+  }, {
+    "@id" : "_:genid4"
+  }, {
+    "@id" : "_:genid5"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Airline",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Airlines are the entities that own the planes that use your airport."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Airline"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Airline"
+  }, {
+    "@id" : "_:genid6"
+  }, {
+    "@id" : "_:genid7"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Albania",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#name" : [ {
+    "@value" : "Albania"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Country"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An instance that belongs to a class 'Ryanair Passenger Country'."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Albania"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@value" : "https://dbpedia.org/page/Albania"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Alicante",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#name" : [ {
+    "@value" : "Alicante"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Destination"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An instance that belongs to a class 'Ryanair Flight Destination'."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Alicante"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Alwaleed_Althani",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#dateFlown" : [ {
+    "@value" : "February 2024"
+  } ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#datePublished" : [ {
+    "@value" : "2024-02-25"
+  } ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#fromOrigin" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Doha"
+  } ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#hasAircraft" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#A380-800"
+  } ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#hasCountry" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Qatar"
+  } ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#hasFirstClass" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Alwaleed_Althani"
+  } ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#hasReview" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#I_hope_they_update_the_A380"
+  } ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#isPassenger" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Alwaleed_Althani"
+  } ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#name" : [ {
+    "@value" : "Alwaleed Althani"
+  } ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#rating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "10"
+  } ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#toDestination" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#London_Heathrow"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Author"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An instance that belongs to a class 'Qatar Airways Review Author'."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Alwaleed Althani"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Another_good_affordable_flight",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#name" : [ {
+    "@value" : "Another good affordable flight"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#CommentTitle"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An instance that belongs to a class 'Ryanair Review Comment Title'."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Another good affordable flight"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Auckland",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#name" : [ {
+    "@value" : "Auckland"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Origin"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An instance that belongs to a class 'Qatar Airways Flight Origin'."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Auckland"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Australia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#name" : [ {
+    "@value" : "Australia"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Country"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An instance that belongs to a class 'Qatar Airways Passenger Country'."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Australia"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@value" : "https://dbpedia.org/page/Australia"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Author",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "the 'author' of an airline review is usually the individual passenger who wrote the review."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Author"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Review"
+  }, {
+    "@id" : "_:genid8"
+  }, {
+    "@id" : "_:genid9"
+  }, {
+    "@id" : "_:genid10"
+  }, {
+    "@id" : "_:genid11"
+  }, {
+    "@id" : "_:genid12"
+  }, {
+    "@id" : "_:genid13"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Belfast",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#name" : [ {
+    "@value" : "Belfast"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Origin"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An instance that belongs to a class 'Ryanair Flight Origin'."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Belfast"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Boeing_737",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#hasRyanairAirline" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Boeing_737"
+  } ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#name" : [ {
+    "@value" : "Boeing 737"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Aircraft"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An instance that belongs to a class 'Ryanair Aircraft'."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Boeing 737"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Boeing_737-800",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#hasRyanairAirline" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Boeing_737-800"
+  } ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#name" : [ {
+    "@value" : "Boeing 737-800"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Aircraft"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An instance that belongs to a class 'Ryanair Aircraft'."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Boeing 737-800"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Boeing_737-8200",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#hasRyanairAirline" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Boeing_737-8200"
+  } ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#name" : [ {
+    "@value" : "Boeing 737-8200"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Aircraft"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An instance that belongs to a class 'Ryanair Aircraft'."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Boeing 737-8200"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Boeing_737Max",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#hasRyanairAirline" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Boeing_737Max"
+  } ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#name" : [ {
+    "@value" : "Boeing 737Max"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Aircraft"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An instance that belongs to a class 'Ryanair Aircraft'."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Boeing 737Max"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Boeing_737_900",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#hasRyanairAirline" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Boeing_737_900"
+  } ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#name" : [ {
+    "@value" : "Boeing 737 900"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Aircraft"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An instance that belongs to a class 'Ryanair Aircraft'."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Boeing 737 900"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Boeing_777-300",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#hasQatarAirline" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Boeing_777-300"
+  } ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#name" : [ {
+    "@value" : "Boeing 777-300"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Aircraft"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An instance that belongs to a class 'Qatar Airways Aircraft'."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Boeing 777-300"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Brian_English",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#dateFlown" : [ {
+    "@value" : "February 2024"
+  } ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#datePublished" : [ {
+    "@value" : "2024-02-29"
+  } ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#fromOrigin" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Doha"
+  } ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#hasAircraft" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#A380"
+  } ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#hasBusinessClass" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Brian_English"
+  } ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#hasCountry" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Canada"
+  } ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#hasReview" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#seat_would_not_stay_up"
+  } ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#isPassenger" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Brian_English"
+  } ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#name" : [ {
+    "@value" : "Brian English"
+  } ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#rating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1"
+  } ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#toDestination" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Montreal"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Author"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An instance that belongs to a class 'Qatar Airways Review Author'."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Brian English"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Business",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Business Passenger Type."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Business"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#PassengerType"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#BusinessClass",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Business Class Seat Type."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Business Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#SeatType"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Canada",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#name" : [ {
+    "@value" : "Canada"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Country"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An instance that belongs to a class 'Qatar Airways Passenger Country'."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Canada"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@value" : "https://dbpedia.org/page/Canada"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Comment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Textual assessments submitted by passengers following their flight experiences."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Comment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Review"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#CommentTitle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Title of a given comment."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Comment Title"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Review"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Copenhagen",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#name" : [ {
+    "@value" : "Copenhagen"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Origin"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An instance that belongs to a class 'Ryanair Flight Origin'."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Copenhagen"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Country",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Distinct territorial body or political entity."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Country"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Country"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Denmark",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#name" : [ {
+    "@value" : "Denmark"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Country"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An instance that belongs to a class 'Ryanair Passenger Country'."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Denmark"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@value" : "https://dbpedia.org/page/Denmark"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Destination",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "In the context of air travel, the destination is the airport where the flight ends."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Destination"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Flight"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Doha",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#name" : [ {
+    "@value" : "Doha"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Destination"
+  }, {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Origin"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An instance that belongs to a class 'Qatar Airways Flight Origin'."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Doha"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Dublin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#name" : [ {
+    "@value" : "Dublin"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Origin"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An instance that belongs to a class 'Ryanair Flight Origin'."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Dublin"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Dusseldorf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#name" : [ {
+    "@value" : "Dusseldorf"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Origin"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An instance that belongs to a class 'Qatar Airways Flight Origin'."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Dusseldorf"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#EconomyClass",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Economy Class Seat Type."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Economy Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#SeatType"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Edinburgh",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#name" : [ {
+    "@value" : "Edinburgh"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Origin"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An instance that belongs to a class 'Ryanair Flight Origin'."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Edinburgh"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#FamilyLeisure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Family Leisure Passenger Type."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Family Leisure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#PassengerType"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Faro",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#name" : [ {
+    "@value" : "Faro"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Origin"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An instance that belongs to a class 'Ryanair Flight Origin'."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Faro"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#FirstClass",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "First Class Seat Type."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "First Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#SeatType"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Flight",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Flight or flying is the process by which an object moves through a space without contacting any planetary surface, either within an atmosphere (i.e. air flight or aviation) or through the vacuum of outer space (i.e. spaceflight). This can be achieved by generating aerodynamic lift associated with gliding or propulsive thrust, aerostatically using buoyancy, or by ballistic movement."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Flight"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  }, {
+    "@id" : "_:genid14"
+  }, {
+    "@id" : "_:genid15"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Frankfurt",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#name" : [ {
+    "@value" : "Frankfurt"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Origin"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An instance that belongs to a class 'Qatar Airways Flight Origin'."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Frankfurt"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Gdansk",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#name" : [ {
+    "@value" : "Gdansk"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Destination"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An instance that belongs to a class 'Ryanair Flight Destination'."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Gdansk"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Germany",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#name" : [ {
+    "@value" : "Germany"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Country"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An instance that belongs to a class 'Qatar Airways Passenger Country'."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Germany"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@value" : "https://dbpedia.org/page/Germany"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#I_hope_they_update_the_A380",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#name" : [ {
+    "@value" : "I hope they update the A380"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#CommentTitle"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An instance that belongs to a class 'Qatar Airways Review Comment Title'."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "I hope they update the A380"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Israel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#name" : [ {
+    "@value" : "Israel"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Country"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An instance that belongs to a class 'Ryanair Passenger Country'."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Israel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@value" : "https://dbpedia.org/page/Israel"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#I’d_rate_them_maybe_7/10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#name" : [ {
+    "@value" : "I’d rate them maybe 7/10"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#CommentTitle"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An instance that belongs to a class 'Qatar Airways Review Comment Title'."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "I’d rate them maybe 7/10"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Kilimanjaro_via_Doha",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#name" : [ {
+    "@value" : "Kilimanjaro via Doha"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Destination"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An instance that belongs to a class 'Qatar Airways Flight Destination'."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Kilimanjaro via Doha"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#London_Heathrow",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#name" : [ {
+    "@value" : "London Heathrow"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Destination"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An instance that belongs to a class 'Qatar Airways Flight Destination'."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "London Heathrow"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#London_Heathrow_via_Doha",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#name" : [ {
+    "@value" : "London Heathrow via Doha"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Destination"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An instance that belongs to a class 'Qatar Airways Flight Destination'."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "London Heathrow via Doha"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Luton",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#name" : [ {
+    "@value" : "Luton"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Destination"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An instance that belongs to a class 'Ryanair Flight Destination'."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Luton"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Manchester",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#name" : [ {
+    "@value" : "Manchester"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Destination"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An instance that belongs to a class 'Ryanair Flight Destination'."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Manchester"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Mary_Le",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#dateFlown" : [ {
+    "@value" : "March 2024"
+  } ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#datePublished" : [ {
+    "@value" : "2024-03-02"
+  } ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#fromOrigin" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Tokyo"
+  } ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#hasAircraft" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#A380"
+  } ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#hasCountry" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#United_Kingdom"
+  } ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#hasEconomyClass" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Mary_Le"
+  } ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#hasReview" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#marred_by_inconveniences"
+  } ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#isPassenger" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Mary_Le"
+  } ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#name" : [ {
+    "@value" : "Mary Le"
+  } ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#rating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1"
+  } ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#toDestination" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#London_Heathrow_via_Doha"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Author"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An instance that belongs to a class 'Qatar Airways Review Author'."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Mary Le"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Melbourne_via_Doha",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#name" : [ {
+    "@value" : "Melbourne via Doha"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Destination"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An instance that belongs to a class 'Qatar Airways Flight Destination'."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Melbourne via Doha"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Montreal",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#name" : [ {
+    "@value" : "Montreal"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Destination"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An instance that belongs to a class 'Qatar Airways Flight Destination'."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Montreal"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#NegativeSentiments",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Represents the Passengers who have expressed negative emotions or sentiments. This could include feelings of dissatisfaction, frustration, or disappointment about their flight experience."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Negative Sentiments"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#SentimentAnalysis"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#NeutralSentiments",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Represents the Passengers who have expressed neutral emotions or sentiments. This could include Passengers who have neither positive nor negative feelings about their flight experience, or those who have not expressed any specific sentiment."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Neutral Sentiments"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#SentimentAnalysis"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#New_Delhi",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#name" : [ {
+    "@value" : "New Delhi"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Origin"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An instance that belongs to a class 'Qatar Airways Flight Origin'."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "New Delhi"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Origin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "In the context of air travel, the origin is the airport where the flight begins."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Origin"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Flight"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Paris_Beauvais",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#name" : [ {
+    "@value" : "Paris Beauvais"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Destination"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An instance that belongs to a class 'Ryanair Flight Destination'."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Paris Beauvais"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Passenger",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A passenger (also abbreviated as pax) is a person who travels in a vehicle, but does not bear any responsibility for the tasks required for that vehicle to arrive at its destination or otherwise operate the vehicle, and is not a steward. The vehicles may be bicycles, buses, passenger trains, airliners, ships, ferryboats, and other methods of transportation."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Passenger"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  }, {
+    "@id" : "_:genid16"
+  }, {
+    "@id" : "_:genid17"
+  }, {
+    "@id" : "_:genid18"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#PassengerType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "In the context of airlines, 'Passenger Type' refers to the different categories of passengers that can travel with an airline."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Passenger Type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Passenger"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Perth",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#name" : [ {
+    "@value" : "Perth"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Destination"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An instance that belongs to a class 'Qatar Airways Flight Destination'."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Perth"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Portugal",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#name" : [ {
+    "@value" : "Portugal"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Country"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An instance that belongs to a class 'Ryanair Passenger Country'."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Portugal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@value" : "https://dbpedia.org/page/Portugal"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Qatar",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#name" : [ {
+    "@value" : "Qatar"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Country"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An instance that belongs to a class 'Qatar Airways Passenger Country'."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Qatar"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@value" : "https://dbpedia.org/page/Qatar"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#QatarAirways",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Qatar Airways Company Q.C.S.C. operating as Qatar Airways, is the flag carrier of Qatar.Headquartered in the Qatar Airways Tower in Doha, the airline operates a hub-and-spoke network, flying to over 170 international destinations across five continents from its base at Hamad International Airport. The airline currently operates a fleet of more than 200 aircraft. Qatar Airways Group employs more than 43,000 people. The carrier has been a member of the Oneworld alliance since October 2013, and the official company slogan has been \"Going Places Together\" since 2015."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Qatar Airways"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Airline"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Really_impressed!",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#name" : [ {
+    "@value" : "Really impressed!"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#CommentTitle"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An instance that belongs to a class 'Ryanair Review Comment Title'."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Really impressed!"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Review",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Airline reviews are evaluations or feedback given by passengers about their experiences with a particular airline. These reviews can cover various aspects of the flight experience, including the quality of the airline’s service, the comfort of the seats, the food and beverages offered, the friendliness of the staff, and the punctuality of the flights."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Review"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Ryanair",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Ryanair Holdings PLC is an Irish ultra low-cost carrier group headquartered in Swords, Dublin, Ireland. The company includes the subsidiaries Ryanair DACTooltip Designated activity company, Malta Air, Buzz, Lauda Europe and Ryanair UK. Ryanair DAC, the oldest airline of the group, was founded in 1984. Ryanair Holdings was established in 1996 as a holding company for Ryanair with the two companies having the same board of directors and executive officers. In 2019 the transition began from the airline Ryanair and its subsidiaries into separate sister airlines under the holding company. Later in 2019 Malta Air joined Ryanair Holdings."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Ryanair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Airline"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#San_Francisco",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#name" : [ {
+    "@value" : "San Francisco"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Destination"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An instance that belongs to a class 'Qatar Airways Flight Destination'."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "San Francisco"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#SeatType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Airline seat types refer to the different categories of seats available on an airplane."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Seat Type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Flight"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#SentimentAnalysis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Represents the process of determining the emotional tone behind a series of words. This is used to gain an understanding of the attitudes, opinions, and emotions of the individuals, i.e., Passengers in this context."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Sentiment Analysis"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Singapore",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#name" : [ {
+    "@value" : "Singapore"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Country"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An instance that belongs to a class 'Ryanair Passenger Country'."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Singapore"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@value" : "https://dbpedia.org/page/Singapore"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#SoloLeisure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Solo Leisure Passenger Type."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Solo Leisure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#PassengerType"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Tokyo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#name" : [ {
+    "@value" : "Tokyo"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Origin"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An instance that belongs to a class 'Qatar Airways Flight Origin'."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Tokyo"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#United_Kingdom",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#name" : [ {
+    "@value" : "United Kingdom"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Country"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An instance that belongs to a class 'Qatar Airways Passenger Country'."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "United Kingdom"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@value" : "https://dbpedia.org/page/United_Kingdom"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#W_Warnock",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#dateFlown" : [ {
+    "@value" : "February 2024"
+  } ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#datePublished" : [ {
+    "@value" : "2024-02-22"
+  } ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#fromOrigin" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Auckland"
+  } ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#hasAircraft" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#A350"
+  } ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#hasBusinessClass" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#W_Warnock"
+  } ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#hasCountry" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#United_Kingdom"
+  } ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#hasReview" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#I’d_rate_them_maybe_7/10"
+  } ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#isPassenger" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#W_Warnock"
+  } ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#name" : [ {
+    "@value" : "W Warnock"
+  } ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#rating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "7"
+  } ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#toDestination" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Doha"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Author"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An instance that belongs to a class 'Qatar Airways Review Author'."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "W Warnock"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Wayne_Burgess",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#dateFlown" : [ {
+    "@value" : "November 2023"
+  } ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#datePublished" : [ {
+    "@value" : "2024-02-29"
+  } ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#fromOrigin" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Doha"
+  } ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#hasAircraft" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#A380"
+  } ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#hasCountry" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Australia"
+  } ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#hasEconomyClass" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Wayne_Burgess"
+  } ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#hasReview" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#no_attempt_to_address_our_complaint"
+  } ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#isPassenger" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Wayne_Burgess"
+  } ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#name" : [ {
+    "@value" : "Wayne Burgess"
+  } ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#rating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1"
+  } ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#toDestination" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Perth"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Author"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An instance that belongs to a class 'Qatar Airways Review Author'."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Wayne Burgess"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#a_decent_offering_from_Ryanair",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#name" : [ {
+    "@value" : "a decent offering from Ryanair"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#CommentTitle"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An instance that belongs to a class 'Ryanair Review Comment Title'."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "a decent offering from Ryanair"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#age",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Data property that represents the Age of an Entity."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "age"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#bang_on_time_and_smooth_flights",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#name" : [ {
+    "@value" : "bang on time and smooth flights"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#CommentTitle"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An instance that belongs to a class 'Ryanair Review Comment Title'."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "bang on time and smooth flights"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#cabinStaffService",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A data property that indicates what the Cabin Staff Service is."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "cabin Staff Service"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#cabin_crew_were_welcoming_and_friendly",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#name" : [ {
+    "@value" : "cabin crew were welcoming and friendly"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#CommentTitle"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An instance that belongs to a class 'Ryanair Review Comment Title'."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "cabin crew were welcoming and friendly"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#dateFlown",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A data property that permit to identify the Date Flown for an Entity."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "date Flown"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#datePublished",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A data property that permit to identify the Date Published for an Entity."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "date Published"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#foodAndBeverages",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A data property that indicates the availability of Food & Beverages."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "food and Beverages"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#fromOrigin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An object property that permit to define an Origin for a specific Flight."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "from Origin"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#gender",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Data property that represents the Gender of an Entity."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "gender"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#groundService",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A data property that indicates the availability of Ground Service."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "ground Service"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#hasAircraft",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An object property that permit to define an Aircraft for a specific Flight."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has Aircraft"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Aircraft"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#hasAuthor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An object property that permit to define an Author for a specific Review."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has Author"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#hasBusinessClass",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An object property that permit to define a Business Class Seat Type for a specific Flight."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has Business Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#hasComment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An object property that permit to define a Comment for a specific Review."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has Comment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#hasCommentTitle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An object property that permit to define a Comment Title for a specific Review."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has Comment Title"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#hasCountry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An object property that represents the Country of a Passenger."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has Country"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://dbpedia.org/ontology/Country"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#hasEconomyClass",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An object property that permit to define a Economy Class Seat Type for a specific Flight."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has Economy Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#hasFirstClass",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An object property that permit to define a First Class Seat Type for a specific Flight."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has First Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#hasFlight",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An object property that permit to define a Flight for a specific Review."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Passenger"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has Flight"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Flight"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#hasQatarAirline",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An object property that permit to define a Qatar Airline for a specific Aircraft."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has Qatar Airline"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#hasReview",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An object property that represents the Reviews that an Airline have."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Flight"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has Review"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Review"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#hasRyanairAirline",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An object property that permit to define a Ryanair Airline for a specific Aircraft."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has Ryanair Airline"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#hasSentimentAnalysis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An object property that allows Sentiment Analysis to be defined for specific Passenger."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has Sentiment Analysis"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#id",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A data property that permit to define an ID for an Entity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "id"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#anyURI"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#inflightEntertainment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A data property that indicates the availability of In-flight Entertainment."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "inflight Entertainment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#isPassenger",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An object property that permit to define a Passenger for a specific Review."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "is Passenger"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#marred_by_inconveniences",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#name" : [ {
+    "@value" : "marred by inconveniences"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#CommentTitle"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An instance that belongs to a class 'Qatar Airways Review Comment Title'."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "marred by inconveniences"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Data property that represents the Name of an Entity."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "name"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  }, {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#nationality",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Data property that represents the Nationality of an Entity."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "nationality"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#no_attempt_to_address_our_complaint",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#name" : [ {
+    "@value" : "no attempt to address our complaint"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#CommentTitle"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An instance that belongs to a class 'Qatar Airways Review Comment Title'."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "no attempt to address our complaint"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#positiveSentiments",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Represents the Passengers who have expressed positive emotions or sentiments. This could include feelings of happiness, satisfaction, or enjoyment about their flight experience."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Positive Sentiments"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#SentimentAnalysis"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#rating",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A data property that represents the average Rating given to the Flight by the passengers."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#Review"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "rating"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#recommended",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A data property indicating whether the passenger would Recommend this Flight to others."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "recommended"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#seatComfort",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A data property that indicates how Comfortable the Seats are."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "seat Comfort"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#seat_would_not_stay_up",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#name" : [ {
+    "@value" : "seat would not stay up"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#CommentTitle"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An instance that belongs to a class 'Qatar Airways Review Comment Title'."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "seat would not stay up"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#toDestination",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An object property that permit to define a Destination for a specific Flight."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "to Destination"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#tripVerificationStatus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A data property that indicates whether the trip is Verified or not."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "trip Verification Status"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#valueForMoney",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A data property that refers the specific Value for a Currency."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "value for Money"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/emsss777/ontologies/2024/3/airlinereviews#wifiAndConnectivity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A data property that indicates the presence of WiFi."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "wifi and Connectivity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2000/01/rdf-schema#sameAs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2002/07/owl#versionIRI",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+} ]
